@@ -1,1 +1,55 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav {
+	width: 500px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+		 box-sizing: border-box;
+}
+.top-nav li {
+	display: inline;
+	background: skyblue;
+	border: 3px solid lightgreen;
+}
+.top-nav li:hover {
+	background-color: orange;
+}
+.bottom-nav li {
+	display: inline;
+	background: skyblue;
+	border: 3px solid lightgreen;
+}
+.bottom-nav li:hover {
+	background-color: orange;
+}
+a.active {
+	font-weight: bold;
+}
+#sidebar {
+	width: 250px;
+	float: right;
+	background: pink;
+	margin: 20px;
+	padding: 10px;
+}
+#sidebar li {
+	list-style-type: none;
+	display: inline;
+}
+#sidebar img {
+	width: 50px;
+	height: 50px;
+}
+#content li {
+	list-style-type: none;
+}
+p.bio-photo {
+	float: left;
+	border: 10px solid gold;
+	margin: 20px;
+	padding: 10px;
+}
+
+table #text-left {
+	text-align: left;
+}
